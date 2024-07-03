@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-grey_light transition-colors duration-150 ease-in-out dark:bg-grey_verydark;
+  }
+
+  h1 {
+    @apply font-jakarta text-[24px] font-bold leading-[30px];
+  }
+
+  h2 {
+    @apply font-jakarta text-[18px] font-bold leading-[23px];
+  }
+
+  h3 {
+    @apply font-jakarta text-[15px] font-bold leading-[19px];
+  }
+
+  h4 {
+    @apply font-jakarta text-[12px] font-bold leading-[15px] tracking-[2.4px] text-grey_medium;
+  }
+
+  p {
+    @apply font-jakarta;
+  }
+
+  input {
+    @apply bodyL h-10 w-full cursor-pointer rounded-[4px] px-4 font-jakarta outline-none   ring-1 ring-grey_medium/25 placeholder:text-black/25 focus:text-black  dark:bg-grey_dark dark:text-white dark:placeholder:text-white/25;
+  }
+
+  textarea {
+    @apply bodyL w-full cursor-pointer resize-none rounded-[4px] px-4 pt-2 pb-8 font-jakarta outline-none ring-1 ring-grey_medium/25 placeholder:text-black/25 focus:text-black focus:ring-purple_main dark:bg-grey_dark dark:text-white dark:placeholder:text-white/25;
+  }
+}
+
+@layer components {
+  .bodyL {
+    @apply text-[13px] font-medium leading-[23px];
+  }
+
+  .bodyM {
+    @apply text-[12px] font-bold leading-[15px];
+  }
+}
