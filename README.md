@@ -1,6 +1,6 @@
 ### Deployment: https://fem-kanban.vercel.app/ ###
 
-**NextJS / TailwindCSS / MongoDB / React-Query / React Beautiful DnD**
+**NextJS / TailwindCSS / MongoDB / React-Query **
 
 ----
 
