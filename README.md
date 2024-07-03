@@ -4,8 +4,6 @@
 
 ----
 
-***Kanban*** is a full-stack productivity application that makes task management simple and enjoyable for individuals or teams. Translated in Japanese as 'billboard', Kanban is a digital visual platform allowing projects to be viewed and planned at every stage of development. The method was popularised by the Toyota Production System but has since found relevance in other industries including software development, marketing, HR and also for individuals.
+***Kanban*** Kanban is a full-stack productivity app for simple task management. It uses a visual board system for project planning, inspired by Toyota's method. The front-end uses NextJS, TailwindCSS, and Redux for responsive UI and state management, with drag-and-drop functionality. The back-end uses MongoDB for data storage, with NextJS API routes and React-Query for efficient data handling and real-time updates.
 
-The front-end stack is built with NextJS/TailwindCSS/Redux to allow responsive UI interaction and menu global state management. Atlassian's React Beautiful DnD package is incoporated into the board, allowing tasks to be drag-and-dropped within and across colums. The mobile experience incorporates horizontal snap scrolling to improve the board navigation experience.
-
-For the back-end, a document-oriented NoSQL database is chosen where each board is represented as a separate document in a MongoDB cloud database. The CRUD operations are programmed as NextJS API routes and are queried/mutated using the React-Query library, allowing for advanced caching and refetching in real-time as data is updated.
+Migrated from Gitlab account
