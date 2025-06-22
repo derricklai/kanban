@@ -1,9 +1,6 @@
 # Kanban Web App
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-![Last Commit](https://img.shields.io/github/last-commit/derricklai/kanban)
-![Stars](https://img.shields.io/github/stars/derricklai/kanban)
-![Languages](https://img.shields.io/github/languages/top/derricklai/kanban)
 
 *Built with the tools and technologies:*
 
