@@ -1,6 +1,4 @@
-# KANBAN
-
-*Transform Workflows, Unleash Productivity Instantly*
+# Kanban Web App
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![Last Commit](https://img.shields.io/github/last-commit/derricklai/kanban)
